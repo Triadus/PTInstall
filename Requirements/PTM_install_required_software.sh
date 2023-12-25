@@ -25,7 +25,7 @@ fi
 if ! command -v node &> /dev/null
 then
     # Install Node.js 14.x
-    curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+    curl -sL https://deb.nodesource.com/setup_20.x | sudo bash -
     sudo apt-get install -y nodejs
 fi
 
